@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Nicole's Haiku Generator</title>
   </head>
   <body>
     <div class="container">
       <header><h1>Haiku Generator</h1></header>
       <main>
-        <form>
+        <form id="haiku-generator-form">
           <input
             class="instructions"
             type="text"
@@ -21,7 +23,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="haiku">The haiku will go here</div>
+        <div class="haiku" id="haiku"></div>
       </main>
       <footer>
         This was coded by
