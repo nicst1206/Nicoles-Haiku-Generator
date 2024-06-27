@@ -29,6 +29,10 @@ footer {
   margin-top: 30px;
 }
 
+.haiku strong {
+  color: lightpink;
+}
+
 .container {
   margin: 120px auto;
   max-width: 600px;
