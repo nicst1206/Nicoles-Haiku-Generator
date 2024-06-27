@@ -7,36 +7,39 @@
     <title>Nicole's Haiku Generator</title>
   </head>
   <body>
-    <header><h1>Haiku Generator</h1></header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the haiku"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>The haiku will go here</div>
-    </main>
-    <footer>
-      This was coded by
-      <a href="https://github.com/nicst1206" target="_blank"
-        >Nicole Stoewer-Rust</a
-      >
-      and is open-sourced on
-      <a
-        href="https://github.com/nicst1206/Nicoles-Haiku-Generator"
-        target="_blank"
-        >Github</a
-      >
-      and is hosted on
-      <a href="https://nicoles-haiku-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header><h1>Haiku Generator</h1></header>
+      <main>
+        <form>
+          <input
+            class="instructions"
+            type="text"
+            placeholder="Enter the topic of the haiku"
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="haiku">The haiku will go here</div>
+      </main>
+      <footer>
+        This was coded by
+        <a href="https://github.com/nicst1206" target="_blank"
+          >Nicole Stoewer-Rust</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/nicst1206/Nicoles-Haiku-Generator"
+          target="_blank"
+          >Github</a
+        >
+        and is hosted on
+        <a href="https://nicoles-haiku-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
