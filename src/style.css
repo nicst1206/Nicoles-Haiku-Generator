@@ -16,17 +16,28 @@ header {
 }
 
 form {
-  padding: 30px;
-  background-color: white;
-  border-radius: 10px;
   display: flex;
-  margin-bottom: 30px;
 }
 
 footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
+}
+
+.form-container {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 12px;
+  margin-left: 15px;
 }
 
 .haiku strong {
@@ -43,7 +54,7 @@ footer {
   border: 1px solid grey;
   width: 80%;
   font-size: 16px;
-  border-radius: 50px;
+  border-radius: 20px;
   line-height: 26px;
 }
 
@@ -62,4 +73,8 @@ footer {
   padding: 20px;
   line-height: 2;
   border-left: 3px solid grey;
+}
+
+.hidden {
+  display: none;
 }
